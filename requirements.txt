@@ -3,3 +3,6 @@ pandas==2.0.3
 streamlit==1.27.2
 xlrd==2.0.1
 msoffcrypto-tool==5.1.1
+streamlit==1.27.2
+streamlit_extras==0.3.4
+st_pages==0.4.5
