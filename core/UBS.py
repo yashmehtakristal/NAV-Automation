@@ -62,7 +62,7 @@ def process_csv_ubs(directory_path, input_file):
         output_file (str) - The path to the output xlsx file that needs to be processed
     """
 
-    data = pd.read_csv(input_file)
+    data = pd.read_csv(input_file, index_col=None, usecols=[0, 1, 2])
     # st.write(input_file)
     date_str = input_file.split('_')[1].replace('.csv', '')
     source_issuer_str = input_file.split('_')[0]
