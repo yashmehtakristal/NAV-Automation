@@ -22,14 +22,14 @@ Hence, the **objective** is to establish an automated process for this task and 
 
 ### How to run this program?
 
-Simply head over to "NAV Automation" page. Upload a zip file which should be in the following format (case-sensitive!!):
+Simply head over to "NAV Automation" page. Upload a zip file which should have folders in the following format (case-sensitive!!):
 
  1. UBS
  2. Bloomberg
  3. Nomura
  4. Privatam
 
-Each folder above should contain the files we typically get from each of the brokers. Place them in the respective folders, as is (don't change name or anything).
+Each folder above should contain the files we typically get from each of the brokers. Place them in the respective folders, as is (don't change name or anything). Please make sure these folders are in the root directory in zip file. Don't include any other folders/sub-folders in between.
 
 Here's an example of the final, zip file to be uploaded should look like:
 
